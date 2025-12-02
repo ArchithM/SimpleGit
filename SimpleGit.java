@@ -11,7 +11,6 @@ import java.text.SimpleDateFormat;
 
 public class SimpleGit extends JFrame {
     
-    // UI Components
     private JTextField repoPathField;
     private JTextArea outputArea;
     private JTextArea commitMessageArea;
@@ -25,7 +24,6 @@ public class SimpleGit extends JFrame {
     private JProgressBar progressBar;
     private File currentRepo;
     
-    // Colors - Modern Dark Theme
     private static final Color BG_DARK = new Color(30, 30, 30);
     private static final Color BG_MEDIUM = new Color(45, 45, 45);
     private static final Color BG_LIGHT = new Color(60, 60, 60);
@@ -238,7 +236,6 @@ public class SimpleGit extends JFrame {
         changedPanel.add(changedScroll, BorderLayout.CENTER);
         changedPanel.add(changeBtnPanel, BorderLayout.SOUTH);
         
-        // Split between staged and changed
         JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
         splitPane.setTopComponent(stagedPanel);
         splitPane.setBottomComponent(changedPanel);
@@ -256,7 +253,6 @@ public class SimpleGit extends JFrame {
         panel.setBackground(BG_DARK);
         panel.setBorder(new EmptyBorder(10, 5, 10, 10));
         
-        // Top - Action buttons
         JPanel actionsPanel = new JPanel(new GridLayout(2, 4, 10, 10));
         actionsPanel.setBackground(BG_MEDIUM);
         actionsPanel.setBorder(BorderFactory.createCompoundBorder(
