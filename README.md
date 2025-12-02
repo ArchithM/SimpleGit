@@ -30,7 +30,7 @@ A lightweight, user-friendly Git GUI client built in Java. Simplifies GitHub and
 ## Requirements
 
 - **Java 8** or higher
-- **Git** installed and available in system PATH
+- **Git** installed 
 
 ### Verify Installation
 
