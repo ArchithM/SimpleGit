@@ -7,7 +7,7 @@ A lightweight, user-friendly Git GUI client built in Java. Simplifies GitHub and
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature |
 |---------|
